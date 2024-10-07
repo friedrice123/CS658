@@ -1,0 +1,269 @@
+CICDataset_Organized
+└── CICDataset_Organized
+    └── Dataset
+        ├── Correct_ID
+        │   ├── Random_CS_Off
+        │   │   ├── Gaussian_Off
+        │   │   │   ├── STAT
+        │   │   │   │   ├── CS
+        │   │   │   │   │   └── STAT.json
+        │   │   │   │   └── GS
+        │   │   │   │       └── STAT.json
+        │   │   │   ├── TIME_DELTA
+        │   │   │   │   └── TIME_DELTA.json
+        │   │   │   └── TOP
+        │   │   │       ├── CS
+        │   │   │       │   └── TOP.json
+        │   │   │       └── GS
+        │   │   │           └── TOP.json
+        │   │   └── Gaussian_On
+        │   │       ├── STAT
+        │   │       │   ├── CS
+        │   │       │   │   └── STAT.json
+        │   │       │   └── GS
+        │   │       │       └── STAT.json
+        │   │       ├── TIME_DELTA
+        │   │       │   └── TIME_DELTA.json
+        │   │       └── TOP
+        │   │           ├── CS
+        │   │           │   └── TOP.json
+        │   │           └── GS
+        │   │               └── TOP.json
+        │   └── Random_CS_On
+        │       ├── Gaussian_Off
+        │       │   ├── STAT
+        │       │   │   ├── CS
+        │       │   │   │   └── STAT.json
+        │       │   │   └── GS
+        │       │   │       └── STAT.json
+        │       │   ├── TIME_DELTA
+        │       │   │   └── TIME_DELTA.json
+        │       │   └── TOP
+        │       │       ├── CS
+        │       │       │   └── TOP.json
+        │       │       └── GS
+        │       │           └── TOP.json
+        │       └── Gaussian_On
+        │           ├── STAT
+        │           │   ├── CS
+        │           │   │   └── STAT.json
+        │           │   └── GS
+        │           │       └── STAT.json
+        │           ├── TIME_DELTA
+        │           │   └── TIME_DELTA.json
+        │           └── TOP
+        │               ├── CS
+        │               │   └── TOP.json
+        │               └── GS
+        │                   └── TOP.json
+        ├── Wrong_CS_TS
+        │   ├── Random_CS_Off
+        │   │   ├── Gaussian_Off
+        │   │   │   ├── STAT
+        │   │   │   │   ├── CS
+        │   │   │   │   │   └── STAT.json
+        │   │   │   │   └── GS
+        │   │   │   │       └── STAT.json
+        │   │   │   ├── TIME_DELTA
+        │   │   │   │   └── TIME_DELTA.json
+        │   │   │   └── TOP
+        │   │   │       ├── CS
+        │   │   │       │   └── TOP.json
+        │   │   │       └── GS
+        │   │   │           └── TOP.json
+        │   │   └── Gaussian_On
+        │   │       ├── STAT
+        │   │       │   ├── CS
+        │   │       │   │   └── STAT.json
+        │   │       │   └── GS
+        │   │       │       └── STAT.json
+        │   │       ├── TIME_DELTA
+        │   │       │   └── TIME_DELTA.json
+        │   │       └── TOP
+        │   │           ├── CS
+        │   │           │   ├── TOP.json
+        │   │           │   ├── basis_symbol.json
+        │   │           │   ├── cs_avg_elbow_point.json
+        │   │           │   ├── cs_avg_overhead.json
+        │   │           │   ├── cs_record_size.json
+        │   │           │   ├── elbow_point_information.json
+        │   │           │   ├── feature_combination.json
+        │   │           │   ├── final_dataset.json
+        │   │           │   ├── full_feature_information.json
+        │   │           │   ├── kernel_record.json
+        │   │           │   ├── ratio_information.json
+        │   │           │   ├── sam_res_diff_and_mean.json
+        │   │           │   └── unique_intersection.json
+        │   │           └── GS
+        │   │               ├── TOP.json
+        │   │               ├── basis_symbol.json
+        │   │               ├── elbow_point_information.json
+        │   │               ├── feature_combination.json
+        │   │               ├── final_dataset.json
+        │   │               ├── full_feature_information.json
+        │   │               ├── gs_record_size.json
+        │   │               ├── kernel_record.json
+        │   │               ├── ratio_information.json
+        │   │               ├── sam_res_diff_and_mean.json
+        │   │               └── unique_intersection.json
+        │   └── Random_CS_On
+        │       ├── Gaussian_Off
+        │       │   ├── STAT
+        │       │   │   ├── CS
+        │       │   │   │   └── STAT.json
+        │       │   │   └── GS
+        │       │   │       └── STAT.json
+        │       │   ├── TIME_DELTA
+        │       │   │   └── TIME_DELTA.json
+        │       │   └── TOP
+        │       │       ├── CS
+        │       │       │   └── TOP.json
+        │       │       └── GS
+        │       │           └── TOP.json
+        │       └── Gaussian_On
+        │           ├── STAT
+        │           │   ├── CS
+        │           │   │   └── STAT.json
+        │           │   └── GS
+        │           │       └── STAT.json
+        │           ├── TIME_DELTA
+        │           │   └── TIME_DELTA.json
+        │           └── TOP
+        │               ├── CS
+        │               │   └── TOP.json
+        │               └── GS
+        │                   └── TOP.json
+        ├── Wrong_EV_TS
+        │   ├── Random_CS_Off
+        │   │   ├── Gaussian_Off
+        │   │   │   ├── STAT
+        │   │   │   │   ├── CS
+        │   │   │   │   │   └── STAT.json
+        │   │   │   │   └── GS
+        │   │   │   │       └── STAT.json
+        │   │   │   ├── TIME_DELTA
+        │   │   │   │   └── TIME_DELTA.json
+        │   │   │   └── TOP
+        │   │   │       ├── CS
+        │   │   │       │   └── TOP.json
+        │   │   │       └── GS
+        │   │   │           └── TOP.json
+        │   │   └── Gaussian_On
+        │   │       ├── STAT
+        │   │       │   ├── CS
+        │   │       │   │   └── STAT.json
+        │   │       │   └── GS
+        │   │       │       └── STAT.json
+        │   │       ├── TIME_DELTA
+        │   │       │   └── TIME_DELTA.json
+        │   │       └── TOP
+        │   │           ├── CS
+        │   │           │   └── TOP.json
+        │   │           └── GS
+        │   │               └── TOP.json
+        │   └── Random_CS_On
+        │       ├── Gaussian_Off
+        │       │   ├── STAT
+        │       │   │   ├── CS
+        │       │   │   │   └── STAT.json
+        │       │   │   └── GS
+        │       │   │       └── STAT.json
+        │       │   ├── TIME_DELTA
+        │       │   │   └── TIME_DELTA.json
+        │       │   └── TOP
+        │       │       ├── CS
+        │       │       │   └── TOP.json
+        │       │       └── GS
+        │       │           └── TOP.json
+        │       └── Gaussian_On
+        │           ├── STAT
+        │           │   ├── CS
+        │           │   │   └── STAT.json
+        │           │   └── GS
+        │           │       └── STAT.json
+        │           ├── TIME_DELTA
+        │           │   └── TIME_DELTA.json
+        │           └── TOP
+        │               ├── CS
+        │               │   └── TOP.json
+        │               └── GS
+        │                   └── TOP.json
+        └── Wrong_ID
+            ├── Random_CS_Off
+            │   ├── Gaussian_Off
+            │   │   ├── STAT
+            │   │   │   ├── CS
+            │   │   │   │   └── STAT.json
+            │   │   │   └── GS
+            │   │   │       └── STAT.json
+            │   │   ├── TIME_DELTA
+            │   │   │   └── TIME_DELTA.json
+            │   │   └── TOP
+            │   │       ├── CS
+            │   │       │   └── TOP.json
+            │   │       └── GS
+            │   │           └── TOP.json
+            │   └── Gaussian_On
+            │       ├── STAT
+            │       │   ├── CS
+            │       │   │   └── STAT.json
+            │       │   └── GS
+            │       │       └── STAT.json
+            │       ├── TIME_DELTA
+            │       │   └── TIME_DELTA.json
+            │       └── TOP
+            │           ├── CS
+            │           │   ├── TOP.json
+            │           │   ├── basis_symbol.json
+            │           │   ├── cs_avg_elbow_point.json
+            │           │   ├── cs_avg_overhead.json
+            │           │   ├── cs_record_size.json
+            │           │   ├── elbow_point_information.json
+            │           │   ├── feature_combination.json
+            │           │   ├── final_dataset.json
+            │           │   ├── full_feature_information.json
+            │           │   ├── kernel_record.json
+            │           │   ├── ratio_information.json
+            │           │   ├── sam_res_diff_and_mean.json
+            │           │   └── unique_intersection.json
+            │           └── GS
+            │               ├── TOP.json
+            │               ├── basis_symbol.json
+            │               ├── elbow_point_information.json
+            │               ├── feature_combination.json
+            │               ├── final_dataset.json
+            │               ├── full_feature_information.json
+            │               ├── gs_record_size.json
+            │               ├── kernel_record.json
+            │               ├── ratio_information.json
+            │               ├── sam_res_diff_and_mean.json
+            │               └── unique_intersection.json
+            └── Random_CS_On
+                ├── Gaussian_Off
+                │   ├── STAT
+                │   │   ├── CS
+                │   │   │   └── STAT.json
+                │   │   └── GS
+                │   │       └── STAT.json
+                │   ├── TIME_DELTA
+                │   │   └── TIME_DELTA.json
+                │   └── TOP
+                │       ├── CS
+                │       │   └── TOP.json
+                │       └── GS
+                │           └── TOP.json
+                └── Gaussian_On
+                    ├── STAT
+                    │   ├── CS
+                    │   │   └── STAT.json
+                    │   └── GS
+                    │       └── STAT.json
+                    ├── TIME_DELTA
+                    │   └── TIME_DELTA.json
+                    └── TOP
+                        ├── CS
+                        │   └── TOP.json
+                        └── GS
+                            └── TOP.json
+
+142 directories, 124 files
