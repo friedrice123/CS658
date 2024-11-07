@@ -1,5 +1,6 @@
 # CS658: Topics in Malware Analysis - Group 8
-This is our final submission of the preliminary results obtained on the CICEV2023 Dataset for the task of Binary Classification of Attack vs Benign Configurations in Electric Vehicle Systems. You can look into the report submitted along with this for a better analysis of the dataset and how the data was processed for the given problem.
+This is our final submission of the preliminary results obtained on the CICEV2023 Dataset for the task of Binary Classification of Attack vs Benign Configurations in Electric Vehicle Systems. You can look into the report submitted along with this for a better analysis of the dataset and how the data was processed for the given problem. 
+To generate the data, the following Python scripts were used along with some manipulation of CSV files for combining them. To run the code, simply use cs658-project.ipynb file.
 * cs658-project.ipynb contains the code for the proposed model and the processing of the data done on the given dataset
 * Raw_Data_Directory_Tree.txt: Contains the directory tree structure for the Raw Data that has been used for our analysis
 * Processed_Data_Directory_Tree.txt: Contains the directory tree structure for the Processed Data that has been used for our analysis
